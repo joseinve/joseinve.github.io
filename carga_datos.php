@@ -12,3 +12,4 @@ $datos1 = "insert into $local values ('$contratante','$fecha')";
 $insertar = mysqli_query($enlace, $datos);
 $insertar = mysqli_query($enlace, $datos1);
 header('Location: http://localhost/proyecto/index.html');
+?>
