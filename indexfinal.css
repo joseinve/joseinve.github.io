@@ -1,0 +1,75 @@
+body {
+    background-image: url("https://avatars.mds.yandex.net/get-images-cbir/118611/AAgUMoDQrABMDy_OrhpG8w225/ocr");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+p {
+
+    float: left;
+    background-color: rgba(255, 255, 255, 0.548);
+    position: relative;
+    left: 0px;
+    right: 0px;
+}
+
+.titulo2 {
+    padding-left: 4+0px;
+    max-width: 200px;
+
+    font-family: 'Times New Roman', Times, serif;
+    width: 45%;
+    border-style: outset;
+    background-color: rgba(255, 255, 255, 0.548);
+    opacity: 0.8;
+}
+
+.titulo1 {
+    padding-left: 500 px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    border-style: outset;
+    background-color: rgba(255, 255, 255, 0.548);
+    opacity: 0.8;
+    text-align: center;
+}
+
+.texto {
+    background-color: rgba(255, 255, 255, 0.548);
+    opacity: 0.8;
+    font-family: 'Times New Roman', Times, serif;
+    border-style: outset;
+    max-width: 40%;
+}
+
+.fondopag {
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgba(255, 255, 255, 0.548);
+    opacity: 1;
+    padding: 0px 0px 10px 10px;
+    width: 300px;
+    border-style: double;
+}
+
+
+@media (max-width:800px) {
+    .header {
+        left: auto;
+        padding: auto;
+        border-style: dotted;
+        background-color: rgba(255, 255, 255, 0.548);
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 120%;
+        width: 50%;
+        position: relative
+    }
+
+    .titulo {
+        width: auto
+    }
+
+
+}

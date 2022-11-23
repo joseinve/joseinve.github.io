@@ -1,0 +1,33 @@
+<html>
+<head>
+    <title>Alquiler de locales</title>
+    <link rel="stylesheet" type="text/css" href="indexfinal.css"> 
+</head>
+<body>
+    <form action="carga_datos.php" method="POST">
+        <h1 class="titulo1">Alquiler de locales</h1>
+        <h2 class="texto">Introduzca los datos para el alquiler del local:</h2> 
+        <h3 class="titulo2">Contratante:</h3>
+        <input type="text" name="contratante" required><br><br>
+        <h3 class="titulo2">Local a alquilar:</h3>
+        <select name="locales">
+            <option value="asuncion">Local de Asuncion</option>>
+            <option value="lambare">Local de Lambare</option>>
+            <option value="san lorenzo">Local de San Lorenzo</option>>
+        </select><br>
+        <h3 class="titulo2">Fecha del evento:</h3>
+        <input type="date" name="fecha" required><br>
+        <h3 class="titulo2">Tipo de evento:</h3>
+        <input type="text" name="evento" required><br>
+        <h3 class="titulo2">Cantidad de personas:</h3>
+        <input type="text"  name="personas" required><br><br>
+        <input type="submit" name="enviar datos">
+        <br><br><br><br>
+        <h2 class="fondopag">
+            Proyecto final laboratorio software
+            2022
+        </h2>    
+    </form>
+</body>
+
+</html>
